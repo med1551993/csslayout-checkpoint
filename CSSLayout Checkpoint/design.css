@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{ padding: 0px;
+   margin: 0px;
+   font-family: Roboto;
+}
+
+::selection{
+    color: white;
+    background-color: #00b39b;
+    
+}
+/************************navigation bar********************/
+
+.navigation{
+    margin-top: 0px;
+    padding-top: 0px;
+    position: sticky;
+    top:0;
+    background-color: white;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 14%;
+   
+}
+.logo-docplanner{
+    width: 268px; 
+    height: 60px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ABABAB;
+    font-size: 15px;
+}
+span{
+    color: #00b39b;
+}
+.retour1:hover{
+    color:#00b39b;
+    transition: .4s;
+}
+
+
+/***************************About section********************/
+
+.about{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.about h1{
+    color: #00b39b;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0 200px;
+
+}
+.para p{
+    display: block;  
+    color: #747474;
+    line-height: 30px;
+    margin: 0 10px;   
+}
+
+/************************Cards section**********************/
+.cards{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 200px;
+    margin-top: 80px;
+}
+.cardone{
+    background-color: #00b39b;
+    color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    margin-right: 15px;   
+}
+.cardone select{
+    border: 2px solid transparent ;
+    color: white;
+    background-color: #00b39b;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.cardtwo select{
+    border: 2px solid #3d83df ;
+    color: white;
+    background-color: #3d83df;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.cardthree select{
+    border: 2px solid #1b2734 ;
+    color: white;
+    background-color: #1b2734;
+    text-decoration: underline;
+    font-size: 18px;  
+}
+
+.cards p{
+    text-align:left;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 90px;
+}
+.cardtwo{
+    background-color: #3d83df;
+    color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+.cardthree{
+    background-color: #1b2734;
+    color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    margin-right: 15px;
+}
+.cards option{
+    color: black;
+    background-color: white;
+    font-size: 17px;
+
+   
+}
+   /******************* Partner section******************/
+
+.logocard1{
+    width: 150px;
+    height: 60px;
+    margin: 0 auto;
+    
+}
+.partner{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.partner p{
+    color:#00b39b;
+    font-size: 25px;
+    margin-right: 100px;
+    font-weight: 300;
+}
+.partnerslogo{
+    display:flex;
+    flex-direction: column;
+    width: 1500px;
+    margin-bottom: 70px;
+   
+}
+.partnerslogo1{
+    display:flex; 
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.partnerslogo2{
+   display: flex;
+   justify-content: space-around;
+}
+
+/***********************platform section************************/
+
+.platform{
+    display: flex;
+    justify-content: space-space space-between;
+    background-color: #ccfdf6;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+.platform1{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 200px;
+    width: 30%;
+    max-width:700px;
+    max-height:600px
+    
+}
+.platform1 .logo{
+    background-color: yellow;
+    height: 60%;
+    max-height: 400px; 
+    margin-bottom: 0px;  
+}   
+
+.platform h1{
+    color: #00b39b;
+    font-weight: 300;
+    line-height: 40px;
+    margin-top: 60px;
+    width: 400px;
+}
+.platform1 p{
+    color:#747474;
+    line-height: 25px;
+    margin-top: 20px; 
+    font-size: 15px; 
+    margin-bottom: 50px;
+}
+
+.platform2{
+    display:flex;
+    justify-content:space-around;
+    margin:0 auto;
+}
+.platform2 p{
+    color: #747474;
+    font-weight: 300;
+    font-size: 15px;
+}
+.platform2 h3{
+    color: #00b39b;
+    font-weight: 300;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.leader{
+    padding: 60px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    height: 150px;
+    margin-bottom: 20px; 
+    
+    
+}
+.patients{
+    padding: 60px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    height: 170px;
+       
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 130px;
+    
+  
+}
+.appointments{
+    padding: 60px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    height: 170px;
+    margin-bottom: 20px; 
+  
+}
+.doctors{
+    padding: 60px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    height: 170px;
+ 
+}
+
+/******************** section improve *****************/
+
+.improve{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+.improve h1{
+    color: #00b39b;
+    font-size: 30px;
+    font-weight: 300;
+    width: 460px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.improve p{
+    color: #747474;
+    width: 460px;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+/*************************** images section *********************/
+
+.blockimage{
+    display: flex;
+    flex-wrap: wrap ;
+    width: 80%;
+    max-width: 1000px;
+   /* margin: 70px auto 0;*/
+   margin: 8% 15% 0%;
+
+}
+
+.img1{
+    display: flex;
+    flex-direction: column ; 
+    width:300px;
+    margin-right:20px;
+    margin-bottom: 30px;
+    /*align-items: center;*/     
+}
+.source{
+    display: flex;
+    width: 300px;
+    height: 270;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+.img1:hover{
+    cursor:pointer;
+}
+
+.source p{
+    color: #747474;
+    padding-top: 5px;
+}
+.favorite{
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: #fff;
+    background-color: #3d83DF;
+    width: 130px;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.favorite:hover{  
+    background-color: blue;
+    transition: .6s;
+    cursor: pointer;
+}
+
+/******************** section Join *****************/
+
+.join{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.join h1{
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 300;
+    width: 520px;
+    color: black;
+    margin-bottom: 20px;
+    padding-left: 70px;
+}
+.joinbutton{
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: #fff;
+    background-color: #3d83DF;
+    width: 240px;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+.joinbutton:hover{
+    
+    background-color: blue;
+    transition: .6s;
+    cursor: pointer;
+}
+
+/*-------------------------footer section----------------------------*/
+.footer{
+color: #ABABAB;
+font-size: 12px;
+display:flex;
+flex-direction: column;
+text-align: center;
+margin-top: 100px;
+}
+.footer a{
+    color: #3d83DF;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer p{
+    text-align: center;
+}
+.footer p:nth-child(2){
+    margin-top: 20px;
+}
+.footer p:nth-child(3){
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
